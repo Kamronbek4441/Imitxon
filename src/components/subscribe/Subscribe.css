@@ -1,0 +1,23 @@
+.todey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+}
+
+.todey .img {
+  width: 50%;
+  height: auto;
+}
+
+.text > h5 {
+  color: #e6b939;
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  gap: 0px;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,46 @@
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 120px;
+  color: #575445;
+  background-image: url("../../../public/assets/img.png");
+}
+
+.set-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 480px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.set-text h2 {
+  font-size: 30px;
+  color: #575445;
+}
+
+.set-text p {
+  line-height: 20px;
+}
+
+.set-text h5 {
+  color: #e6b939;
+}
+
+.set-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div {
+  width: 388.66px;
+  height: 275px;
+  top: 276px;
+  left: 779.31px;
+  padding: 50px 49.97px 60px 49.69px;
+}

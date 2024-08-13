@@ -1,0 +1,140 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #575445;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 136px;
+  margin-top: 99.86px;
+}
+.footer .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 154.8px;
+  padding: 20px;
+}
+.footer .left h3 {
+  color: #e6b939;
+  width: 57px;
+  height: 20px;
+  top: -1.44px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.footer .left p {
+  width: 84px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: #ffffff;
+}
+.footer .left .div h4 {
+  width: 438px;
+  height: 40px;
+  top: 17.56px;
+  left: -0.39px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: #fafafc;
+}
+.footer .left .div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .left .div div input {
+  width: 458px;
+  height: 53px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  color: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+.footer .left .div div button {
+  width: 73px;
+  height: 39px;
+  top: 7px;
+  left: 378px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #575445;
+  color: #ffffff;
+}
+/* .input-btn {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-right: 150px;
+  background: #fff;
+} */
+/* .input-btn input:focus {
+  outline: none;
+}
+.input-btn input {
+  border: none;
+  background: none;
+} */
+
+.input-btn {
+  display: flex;
+  position: absolute;
+  justify-content: end;
+  margin-left: 790px;
+}
+
+.left .input-btn button {
+  margin: 4px 0px 0px -81px;
+  color: white;
+  background: #575445;
+  border: none;
+  border-radius: 10px;
+  width: 73px;
+  height: 39px;
+}
+
+.left .input-btn input {
+  background: white;
+  color: #575445;
+  border: none;
+  border-radius: 7px;
+  width: 370px;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footerc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 530px;
+}
+
+.footerc p {
+  color: white;
+}

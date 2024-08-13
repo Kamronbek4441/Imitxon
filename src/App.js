@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header/Header.jsx"
+import Home from "./components/home/Home.jsx"
+import Bit from "./components/bit/Bit.jsx"
+import Setting from "./components/setting/Setting.jsx"
+import Have from "./components/have/Have.jsx"
+import Check from "./components/check/Check.jsx"
+import Navigating from "./components/navigating/Navigating.jsx"
+import Subscribe from "./components/subscribe/Subscribe.jsx"
+import Footer from "./components/footer/Footer.jsx"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header />
+     <Home />
+     <Bit />
+     <Setting />
+     <Have />
+     <Check />
+     <Navigating />
+     <Subscribe />
+     <Footer />
     </div>
   );
 }
